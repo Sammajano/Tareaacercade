@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.virus.tareaacercade.MainActivity">
+
+    <ImageView
+        android:layout_width="188dp"
+        android:layout_height="189dp"
+        android:layout_gravity="center"
+        android:padding="15dp"
+        android:src="@mipmap/user"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="20dp"
+        android:text="Samuel Majano"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ing.Informatica"
+        android:layout_gravity="center"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="20dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="33dp"
+            android:layout_gravity="center"
+            android:src="@mipmap/insta" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sammajano"
+            android:paddingRight="46dp"
+            android:layout_gravity="center"
+            />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="33dp"
+            android:layout_gravity="center"
+            android:src="@mipmap/github" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sammajano"
+            android:layout_gravity="center"
+            />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="38dp"
+            android:layout_height="33dp"
+            android:layout_gravity="center"
+            android:paddingLeft="5dp"
+            android:src="@mipmap/whatsapp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="7590-3322"
+            android:paddingRight="60dp"
+            android:layout_gravity="center"
+            />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="33dp"
+            android:layout_gravity="center"
+            android:src="@mipmap/gmail" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00020114@uca.edu.sv"
+            android:layout_gravity="center"
+            />
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:paddingTop="100dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Powered by: cronos.sv"/>
+
+
+</LinearLayout>
